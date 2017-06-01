@@ -46,6 +46,7 @@
             // set default inputs
             $('#channel').val(thingspeak['channel']);
             $('#read_api_key').val(thingspeak['read_api_key']);
+            
 
             if (thingspeak['location']) {
                 $('#location').find(".glyphicon").removeClass("glyphicon-unchecked").addClass("glyphicon-check");
@@ -313,11 +314,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">IoT Debugger</a>
+                <a class="navbar-brand" href="index.html">Steam Data Logger</a>
             </div>
             <div class="collapse navbar-collapse" id="iotNavBar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="thingspeak.html">ThingSpeak</a></li>
+                    <li class="active"><a href="thingspeak.html">Cloud Data</a></li>
                     <li><a href="particle.html">Particle</a></li>
                 </ul>
             </div>
